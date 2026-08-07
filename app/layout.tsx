@@ -18,26 +18,36 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000'),
   title: 'Girimurugan - Graphic & UI Designer',
   description:
     'Creative Graphic Designer & UI Designer | Adobe Suite Expert | Motion Graphics | Branding',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+  applicationName: 'Girimurugan Portfolio',
+  authors: [{ name: 'Girimurugan Shanmugasundaram' }],
+  keywords: [
+    'Graphic Designer',
+    'UI Designer',
+    'Motion Graphics',
+    'Branding',
+    'Adobe Photoshop',
+    'Adobe Illustrator',
+    'After Effects',
+    'Figma',
+    'Salem',
+  ],
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    title: 'Girimurugan - Graphic & UI Designer',
+    description:
+      'Creative Graphic Designer & UI Designer | Adobe Suite Expert | Motion Graphics | Branding',
+    siteName: 'Girimurugan Portfolio',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Girimurugan - Graphic & UI Designer',
+    description:
+      'Creative Graphic Designer & UI Designer | Adobe Suite Expert | Motion Graphics | Branding',
   },
 }
 
