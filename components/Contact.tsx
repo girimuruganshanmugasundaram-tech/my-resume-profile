@@ -43,7 +43,7 @@ export default function Contact() {
               </p>
             </div>
             <a
-              href="mailto:sundaramgiri123@gmail.com"
+              href="mailto:girimuruganshanmugasundaram@gmail.com"
               className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-primary font-semibold uppercase tracking-wider text-sm rounded-md hover:bg-white/90 transition-colors flex-shrink-0"
             >
               Contact Me
@@ -66,14 +66,14 @@ export default function Contact() {
 
         <div className="grid sm:grid-cols-3 gap-4 md:gap-6 mb-12">
           <a
-            href="mailto:sundaramgiri123@gmail.com"
+            href="mailto:girimuruganshanmugasundaram@gmail.com"
             className="flex flex-col items-center text-center p-6 bg-white rounded-md border border-border hover:border-primary/50 hover:shadow-md transition-all group"
           >
             <div className="w-12 h-12 bg-primary/10 rounded-md flex items-center justify-center mb-3 group-hover:bg-primary/20 transition-colors">
               <Mail className="text-primary" size={22} />
             </div>
             <p className="font-bold text-foreground mb-1">Email</p>
-            <p className="text-muted-foreground text-sm break-all">sundaramgiri123@gmail.com</p>
+            <p className="text-muted-foreground text-sm break-all">girimuruganshanmugasundaram@gmail.com</p>
           </a>
 
           <a
