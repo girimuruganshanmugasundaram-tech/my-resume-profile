@@ -112,7 +112,7 @@ export default function Projects() {
             Let&apos;s collaborate and create stunning designs that resonate with your audience.
           </p>
           <a
-            href="mailto:sundaramgiri123@gmail.com"
+            href="mailto:girimuruganshanmugasundaram@gmail.com"
             className="inline-flex items-center justify-center px-8 py-3.5 bg-white text-primary font-semibold uppercase tracking-wider text-sm rounded-md hover:bg-white/90 transition-colors"
           >
             Get In Touch

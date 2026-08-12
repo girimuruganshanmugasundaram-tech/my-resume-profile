@@ -69,7 +69,7 @@ export default function Hero({ setActiveSection }: HeroProps) {
             <button type="button" onClick={() => scrollTo('projects')} className="kp-btn-primary">
               View Portfolio
             </button>
-            <a href="mailto:sundaramgiri123@gmail.com" className="kp-btn-outline">
+            <a href="mailto:girimuruganshanmugasundaram@gmail.com" className="kp-btn-outline">
               Contact Me
             </a>
           </div>
