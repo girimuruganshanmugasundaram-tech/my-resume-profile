@@ -44,11 +44,11 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
                 <span>6381994374</span>
               </a>
               <a
-                href="mailto:sundaramgiri123@gmail.com"
+                href="mailto:girimuruganshanmugasundaram@gmail.com"
                 className="inline-flex items-center gap-1.5 hover:opacity-90 transition-opacity"
               >
                 <Mail size={14} />
-                <span className="truncate max-w-[11rem] sm:max-w-none">sundaramgiri123@gmail.com</span>
+                <span className="truncate max-w-[11rem] sm:max-w-none">girimuruganshanmugasundaram@gmail.com</span>
               </a>
             </div>
             <p className="hidden sm:block font-medium tracking-wide opacity-95">
@@ -94,7 +94,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
             </nav>
 
             <div className="flex items-center gap-3">
-              <a href="mailto:sundaramgiri123@gmail.com" className="hidden md:inline-flex kp-btn-primary !py-2.5 !px-5 !text-xs">
+              <a href="mailto:girimuruganshanmugasundaram@gmail.com" className="hidden md:inline-flex kp-btn-primary !py-2.5 !px-5 !text-xs">
                 Hire Me
               </a>
               <button
@@ -126,7 +126,7 @@ export default function Header({ activeSection, setActiveSection }: HeaderProps)
                   {item.label}
                 </button>
               ))}
-              <a href="mailto:sundaramgiri123@gmail.com" className="mt-2 kp-btn-primary text-center">
+              <a href="girimuruganshanmugasundaram@gmail.com" className="mt-2 kp-btn-primary text-center">
                 Hire Me
               </a>
             </nav>
